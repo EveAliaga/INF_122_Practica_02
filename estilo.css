@@ -1,0 +1,84 @@
+.contenedor_princ{
+    background-color: lightsalmon;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+.contenedor1{
+    background-color: red;
+    margin: 5px;
+    width: 375px;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+.contenedor2{
+    background-color: yellow;
+    margin: 5px;  
+    width: 375px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-content: center;
+    border: 2px solid black;
+}
+.contenedor3{
+    background-color: green;
+    margin: 5px;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 2px solid black;
+}
+.c_r1{
+    background-color: rgb(255, 92, 80);
+    margin: 5px;
+    width: 180px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid black; 
+    position: relative;
+    left: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: blanchedalmond;
+    font-size: 50px;
+}
+.c_a1{
+    background-color: rgba(168, 168, 41, 0.768);
+    margin: 5px;
+    width: 125px;
+    height: 125px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: blanchedalmond;
+    font-size: 50px;
+}
+.c_v1{
+    background-color:rgb(142, 228, 13);
+    margin: 5px;
+    width: 260px;
+    height: 180px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: blanchedalmond;
+    font-size: 50px;
+}
+.c_v2{
+    background-color: rgb(87, 191, 87);
+    margin: 5px;
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: blanchedalmond;
+    font-size: 50px;
+}
